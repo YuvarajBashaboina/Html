@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+
+</head>
+<body>
+    <fieldset style="width: 600px">
+    <form action="./submit.html" method="get" enctype="text"></form>
+    <table>
+        <center>
+        <h2>Application Form</h2></center>
+        <tr>
+            <td><label for="FirstName">FirstName:</label>
+            <input type="text" name="FirstName" id="FirstName"></td>
+            <td><label for="lastName">lastName:</label>
+            <input type="text" name="lastName" id="lastName"></td>
+        </tr>
+        <tr>
+            <td><label for="date of birth">date of birth:</label>
+            <input type="date" name="date of birth" id="date of birth"></td>
+            <td><label for="Age">Age:</label>
+                <select id="Age" name="age">
+                    <option value=""disabled selected>---select date---</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option></td>
+        </tr>
+        <tr>
+            <td><label>Gender:</label>
+                     <label for="female">female:</label>
+            <input type="radio" name="Gender" id="female" value="female">
+            <label for="male">male:</label>
+            <input type="radio" name="Gender" id="male" value="male"></td>
+            <td><label for="Email">Email:</label>
+                <input type="text" name="Email" id="Email"  required></td>
+        </tr>
+        <table>
+        <tr>
+            <td>
+                 <label for="">positions available:</label>
+              &#9679; junior developer&nbsp;&nbsp; &#9679; mid-level developer &nbsp;&nbsp;&#9679; senior developer 
+             </td>
+                    </tr></table>
+        <tr>
+            <td><label for="">programming languages:</label>
+              &#9632; java&nbsp;&nbsp; &#9632; java script &nbsp;&nbsp;&#9632; python </td>
+        </tr>
+        <table>
+        <tr>
+            <td><label for="pass word">pass word:</label>
+            <input type="text" name="pass word" id="pass word"></td>
+            <td><label for="confirm password">confirm password:</label>
+            <input type="text" name="confirm password" id="confirm password"></td>
+        </tr></table>
+        <tr>
+            <td><center>
+                <input type="submit">
+                <input type="reset">
+            </center>
+    
+            </td>
+        </tr>
+    </table>
+    </fieldset>
+</body>
+</html>
+<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <fieldset style="width: 600px">
+    <form action="./submit.html" method="get" enctype="text"></form>
+    <table>
+        <center>
+        <h2>My Feedback Form</h2></center>
+        <table><tr>
+            <td><label for="Name">FirstName:</label>
+            <input type="text" name="Name" id="Name"></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email:</label>
+                <input type="text" name="Email" id="Email"  required></td>
+        </tr>
+        <tr>
+            <td><label for="password">password:</label>
+                <input type="text" name="password" id="password"  required></td>
+        </tr>
+        <tr>
+            <td><label for="please check all the emotions that apply to you">please check all the emotions that apply to you:</label>
+            <ul type="disc">
+                <li><input name="mood" value="angry" type="checkbox">angry</li>
+                <li><input name="mood" value="sad" type="checkbox">sad</li>
+                <li><input name="mood" value="Happy" type="checkbox">Happy</li>
+                <li><input name="mood" value="ambivalent" type="checkbox">ambivalent</li>
+            </ul></td>
+        </tr>
+        <tr>
+            <td><label for="how satisfied wre you with our service">how satisfied wre you with our service:</label>
+            <ul type="disc">
+                <li><input name="mood" value="very satisfied" type="checkbox">very satisfied</li>
+                <li><input name="mood" value="satisfied" type="checkbox">satisfied</li>
+                <li><input name="mood" value="didn't care" type="checkbox">didn't care</li>
+                <li><input name="mood" value="very dissatisfied" type="checkbox">very dissatisfied</li></ul></td>
+        </tr>
+        <tr>
+            <td><label for="further comments">further comments:</label>
+                <input type="text" name="further comments" id="further comments"  required></td>
+        </tr>
+        <tr>
+            <td><label for="bio photo">bio photo:</label>
+                <input type="file" name="bio photo" id="bio photo"  required></td>
+        </tr>
+        <tr>
+            <td><label for="location visited">location visited:</label>
+                <select id="location visited" name="location visited">
+                    <option value="" disabled selected>---select---</option>
+                    <option>hyderabad</option>
+                    <option>balapur</option>
+                </select></td>
+        </tr></table>
+        <center><input type="submit"></center>
+    </fieldset>
+        <br>
+        <fieldset style="width: 600px;">
+            <form action="./submit.html">
+                <h3>Contact Us Today!</h3>
+                    <table>
+                        <tr>
+                    <label for="First Name">First Name:</label>
+                    <input type="text"></tr>
+                    <br>
+                    <br>
+                        <tr>
+                    <label for="Last Name">Last Name:</label>
+                    <input type="text"></tr>
+                    <br>
+                    <br>
+                        <tr><label for="E-mail Id">E-Mail Id::</label>
+                    <input type="text"></tr>
+                    <br>
+                    <br>
+                        <tr><label for="Phone">Phone:</label>
+                    <input type="text"></tr>
+                    <br>
+                    <br>
+                        <tr><label for="Address">Address:</label>
+                    <input type="text"></tr>
+                    <br>
+                    <br>
+                        <tr><label for="City">City:</label>
+                    <span><input type="text"></tr></span>
+                    <br>
+                    <br>
+                        <tr><label for="State">State:</label>
+                    <select id="State" name="State">
+      <option value="" >-- Please Select Your State--</option>
+      <option value="Andhra Pradesh">Andhra Pradesh</option>
+      <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+      <option value="Assam">Assam</option>
+      <option value="Bihar">Bihar</option>
+      <option value="Chattisgarh">Chattisgarh</option>
+      <option value="Goa">Goa</option>
+      <option value="Gujarat">Gujarat</option>
+      <option value="Haryana">Haryana</option>
+      <option value="Himachal Pradesh">Himachal Pradesh</option>
+      <option value="Jharkhand">Jharkhand</option>
+      <option value="Karnataka">Karnataka</option>
+      <option value="kerala">kerala</option>
+      <option value="Madhya Pradesh">Madhya Pradesh</option>
+      <option value="Maharashtra">Maharashtra</option>
+      <option value="Manipur">Manipur</option>
+      <option value="Meghalaya">Meghalaya</option>
+      <option value="Mizoram">Mizoram</option>
+      <option value="Nagaland">Nagaland</option>
+      <option value="Orrisa">Orrisa</option>
+      <option value="Punjab">Punjab</option>
+      <option value="Rajasthan">Rajasthan</option>
+      <option value="Sikkim">Sikkim</option>
+      <option value="Tamil Nadu">Tamil Nadu</option>
+      <option value="Telangana">Telangana</option>
+      <option value="Tripura">Tripura</option>
+      <option value="Uttar Pradesh">Uttar Pradesh</option>
+      <option value="Uttarakhand">Uttarakhand</option>
+      <option value="West Bengal">West Bengal</option>
+
+    </select></tr>
+    <br>
+    <br>
+                        <tr><label for="Zip code">Zip Code:</label>
+                    <input type="text"></tr>
+                    <br>
+                    <br>
+                        <tr><label for="website Domain Name">website Domain Name:</label>
+                    <input type="text"></tr>
+                    <br>
+                    <br>
+                        <tr><label for="Do You Have Hosting">Do You Have Hosting:</label>
+                <input type="radio" name="yes" id="yes" value="yes">
+                <label for="yes">yes</label> 
+                <span><input type="radio" name="yes" id="yes" value="No">
+                <label for="No">No</label></tr>
+                   <br>
+                   <br>
+                        <tr><label for="Project Desccription">Project Desccription:</label>
+
+                   <textarea id="address" name="address" maxlength="20" rows="3" cols="30"
+  oninput="document.getElementById('charCount').textContent = 20 - this.value.length">
+</textarea></tr>
+                    </table>
+                    <center><input type="submit"></center>
+     </fieldset>
+</body>
+</html>
